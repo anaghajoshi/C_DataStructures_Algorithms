@@ -1,4 +1,4 @@
-OBS = Insert Insert_n Delete_n Reverse Reverse_Recusrsion
+OBS = Insert Insert_n Delete_n Reverse Reverse_Recusrsion Doubly_LinkedList
 CC = gcc
 
 all: Insert Insert_n Delete_n Reverse Reverse_Recusrsion
@@ -13,6 +13,8 @@ Reverse:
 	$(CC) -Wall Reverse_LinkedList.c -o Reverse
 Reverse_Recusrsion:
 	$(CC) -Wall Recursive_reverse_LinkedList.c -o Reverse_Recusrsion
+Doubly_LinkedList:
+	$(CC) -Wall Doubly_Linked_List.c -o Doubly_Linked_List
 clean:
 	rm-rf $(OBS)
 
