@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /* Linked List Implementation in C */
-// This program aims at "Inserting a node at the n-th position"
+// This program aims at "inserting a node in end and deleting a node at the n-th position"
 
 typedef struct node{
 	int data;
