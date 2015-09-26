@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-/* This is Stack Implementation using a Linked list */
+/* This is Queue Implementation using a Linked list */
 #define MAXSIZE 101
 #define BOOL_PRINT(bool_expr) "%s\n", (bool_expr) ? "true" : "false"
 
