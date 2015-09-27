@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* This is a code for binary search tree basic implementtion */
-
-//Contains code for PreOrder, InOrder and PostOrder Traversals i.e. Depth First
 
 typedef struct node{
 	int data;
