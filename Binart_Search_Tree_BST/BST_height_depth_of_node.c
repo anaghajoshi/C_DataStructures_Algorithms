@@ -128,7 +128,7 @@ int height_node(int n){
 	return -1;
 	}
 
-/* Height of a node is the no.of edges in the longest path from node to leaf */
+/* Depth of a node is the no.of edges in the path from root to node */
 
 
 int depth_node( int n){
